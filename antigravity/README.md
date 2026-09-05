@@ -72,7 +72,8 @@ Add the following configuration to your MCP client (e.g., `mcp_config.json` for 
 ```json
 {
   "mcpServers": {
-    "endor-labs": {
+    "endor-cli-tools": {
+      "type": "stdio",
       "command": "npx",
       "args": ["-y", "endorctl", "ai-tools", "mcp-server"]
     }
